@@ -4,7 +4,7 @@ Este projeto simula a jornada de um viajante entre as cidades de **Corrente** e 
 
 ---
 
-## 🧠 Explicação da Lógica do Código
+## 🧠 Lógica do Código
 
 ### 📌 Representação do Grafo
 
