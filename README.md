@@ -54,7 +54,8 @@ Este projeto simula a jornada de um viajante entre as cidades de Corrente e Parn
 | Caminho mais curto      | DFS + Comparação | Ideal seria BFS, mas é viável para grafos pequenos |
 | Caminho mais longo      | DFS + Comparação | Aproveita a enumeração de caminhos da DFS |
 
-> A estrutura `EstadoDFS` foi usada para armazenar o estado da busca com informações do caminho atual, profundidade e cidades visitadas.
+
+A estrutura `EstadoDFS` foi usada para armazenar o estado da busca com informações do caminho atual, profundidade e cidades visitadas.
 
 ## 🏙️ Cidades Representadas
 
