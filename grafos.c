@@ -102,9 +102,31 @@ void montarMapa(Grafo *g) {
     adicionarAresta(g, 2, 5); // Bom Jesus → Teresina
 }
 
+void imprimirGrafo(Grafo *g) {
+    printf("Mapa de conexões entre cidades:\n\n");
+    for (int i = 0; i < NUM_CIDADES; i++) {
+        printf("%s -> ", nomes[i]);
+        No *atual = g->adj[i];
+        if (!atual) {
+            printf("(sem conexões)");
+        } else {
+            while (atual != NULL) {
+                printf("%s", nomes[atual->destino]);
+                if (atual->prox != NULL)
+                    printf(" -> ");
+                atual = atual->prox;
+            }
+        }
+        printf("\n");
+    }
+    printf("\n");
+}
+
+
 int main() {
     Grafo *g = criarGrafo();
     montarMapa(g);
+    imprimirGrafo(g);
 
     Caminho caminhos[MAX_CAMINHOS];
     int total = encontrarTodosCaminhos(g, 0, 9, caminhos);
