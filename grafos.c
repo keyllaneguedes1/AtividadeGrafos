@@ -89,7 +89,7 @@ void imprimirCaminho(Caminho c) {
 
 
 void montarMapa(Grafo *g) {
-    adicionarAresta(g, 0, 1); // Corrente → Gilbués
+    adicionarAresta(g, 0, 1); 
     adicionarAresta(g, 1, 2);
     adicionarAresta(g, 2, 3);
     adicionarAresta(g, 3, 4);
@@ -97,9 +97,9 @@ void montarMapa(Grafo *g) {
     adicionarAresta(g, 5, 6);
     adicionarAresta(g, 6, 7);
     adicionarAresta(g, 7, 8);
-    adicionarAresta(g, 8, 9); // Luís Correia → Parnaíba
-    adicionarAresta(g, 5, 9); // Teresina → Parnaíba
-    adicionarAresta(g, 2, 5); // Bom Jesus → Teresina
+    adicionarAresta(g, 8, 9); 
+    adicionarAresta(g, 5, 9); 
+    adicionarAresta(g, 2, 5); 
 }
 
 void imprimirGrafo(Grafo *g) {
