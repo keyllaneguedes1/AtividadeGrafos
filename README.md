@@ -1,10 +1,8 @@
 # 📍 Cálculo de Rotas entre Cidades do Piauí
 
-Este projeto simula a jornada de um viajante entre as cidades de **Corrente** e **Parnaíba**, no estado do **Piauí**, utilizando estruturas de **grafo direcionado** para representar as conexões rodoviárias entre as cidades. A partir disso, o algoritmo encontra **todos os caminhos possíveis**, o **menor caminho** e o **maior caminho**, com base na quantidade de cidades percorridas.
+Este projeto simula a jornada de um viajante entre as cidades de Corrente e Parnaíba, no estado do Piauí, utilizando estruturas de grafo direcionado para representar as conexões rodoviárias entre as cidades. A partir disso, o algoritmo encontra todos os caminhos possíveis, o menor caminho e o maior caminho, com base na quantidade de cidades percorridas.
 
 ---
-
-## 🧠 Lógica do Código
 
 ### 📌 Representação do Grafo
 
