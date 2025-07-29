@@ -126,6 +126,6 @@ Maior caminho (10 cidades): Corrente -> Gilbués -> Bom Jesus -> Floriano -> Oei
 
 ## 📘 Créditos e Autoria
 
-Este código foi desenvolvido para fins educacionais, com foco no entendimento de grafos, listas de adjacência e algoritmos de busca em profundidade (DFS). Toda a lógica foi desenvolvida manualmente, com fins didáticos.
+Este código foi desenvolvido para fins educacionais, com foco no entendimento de grafos, listas de adjacência e algoritmos de busca em profundidade (DFS).
 
 ---
